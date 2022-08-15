@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/itextpdf-5.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/h2-1.4.197.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-42.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
