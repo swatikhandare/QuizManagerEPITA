@@ -18,14 +18,14 @@ import fr.epita.quiz.ui.Main;
 /**
  * 
  * @author Swati Khandare
- * @Candidate Page
+ * Candiate class
  */
 public class Candidate extends JFrame {
 
 	//Variable Declaration
 	private static final long serialVersionUID = -1197637509927212697L;
-	protected static final Object CHK_UNAME_PWD = "Please check the Username and password.";
-	protected static final Object CDT_RGTR_SUC = "Candidate have registered Successfully.";
+	protected static final Object CHK_UNAME_PWD = "Please check the Username and password!";
+	protected static final Object CDT_RGTR_SUC = "Candidate have registered Successfully!";
 	private JPanel mainPane;
 	private JTextField unameTxtFld;
 	private JTextField nameTxtFld;

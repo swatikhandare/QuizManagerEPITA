@@ -8,16 +8,14 @@ import fr.epita.quiz.datamodel.Question;
 /**
  * 
  * @author Swati Khandare
- * @QuestionTest
- *
- */
+  */
 public class QuestionTest {
 	 
     @Test
     public void testAnsText(){
     	int id = 1;
     	int qid = 11;
-    	String content = " Who is Founder of Java?";
+    	String content = " Who created/founded Java?";
     	String topics = "J2ee";
     	int difficulty = 2;
     	Question ques = new Question(id, qid, content, topics, difficulty);

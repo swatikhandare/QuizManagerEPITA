@@ -33,7 +33,7 @@ public class CandidateLogin extends JFrame {
 		setContentPane(mainPane);
 		mainPane.setLayout(null);
 		
-		JLabel welcomeLbl = new JLabel("Welcome to Candidate Portal");
+		JLabel welcomeLbl = new JLabel("Welcome to Candidate Portal!");
 		welcomeLbl.setBounds(137, 11, 222, 14);
 		mainPane.add(welcomeLbl);
 		

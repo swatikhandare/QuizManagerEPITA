@@ -30,8 +30,8 @@ public class CandidateQuiz extends JFrame {
 	private static final long serialVersionUID = -4760051121978266140L;
 
 	private static final String RETQUES_QUERY = "SELECT QID, CONTENT, CHOICEA, CHOICEB, CHOICEC, CHOICED, ANSWER FROM QUESTION  WHERE TOPICS=? and DIFFICULTY=?";
-	protected static final Object RCRD_BTN_MSG = "Your Question has been recorded,  Please proceed to next Question";
-	protected static final Object NXT_BTN_MSG = "You reached to End of the Quiz, Please End your Quiz";
+	protected static final Object RCRD_BTN_MSG = "Your Question has been recorded,  please proceed to next Question";
+	protected static final Object NXT_BTN_MSG = "You reached to End of the Quiz, please End your Quiz";
 
 	private JPanel mainPane;
 
@@ -53,7 +53,7 @@ public class CandidateQuiz extends JFrame {
 		setContentPane(mainPane);
 		mainPane.setLayout(null);
 		
-		JLabel titleLbl = new JLabel("Hello " +uname+ ", Welcome to Quiz Exam.");
+		JLabel titleLbl = new JLabel("Hello " +uname+ ", Welcome to Quiz Exam!");
 		titleLbl.setBounds(121, 11, 206, 14);
 		mainPane.add(titleLbl);
 		try {
@@ -190,7 +190,7 @@ public class CandidateQuiz extends JFrame {
 			JButton endBtn = new JButton("End"); // Ends the Quiz and generates marks.
 			endBtn.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					JOptionPane.showMessageDialog(null, "The Quiz is Completed Successfully \n Your Score is : "+c);
+					JOptionPane.showMessageDialog(null, "The Quiz is Completed Successfully! \n Your Score is : "+c);
 					System.out.println("C =" + c);
 					new Main();
 					setVisible(false);

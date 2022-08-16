@@ -17,7 +17,7 @@ import fr.epita.quiz.ui.Main;
 /**
  * 
  * @author Swati Khandare
- * @Admin Portal 
+ * Admin Portal
  */
 public class Admn extends JFrame {
 
@@ -28,8 +28,8 @@ public class Admn extends JFrame {
 	private JPasswordField pwdFld;
 	private static final String UNAME = "ADM";
 	private static final String PWD = "ADM";
-	private static final String UNM_PWD_MSG = "Please enter the username and password for login";
-	protected static final Object CHCK_MSG = "Please Check the Username and Password";
+	private static final String UNM_PWD_MSG = "Please enter the Username and Password for login";
+	protected static final Object CHCK_MSG = "Please check the Username and Password!";
 	private StatusBar statusBar;
 
 	public Admn() {
@@ -99,9 +99,9 @@ public class Admn extends JFrame {
 
 	/**
 	 * Admin Authentication based on provided username and password and returns boolean value
-	 * @param uname
-	 * @param pwd
-	 * @return
+	 * @param uname details
+	 * @param pwd details
+	 * @return return details
 	 */
 	protected boolean authenticate(String uname, String pwd) {
 		return UNAME.equals(uname) && PWD.equals(pwd);

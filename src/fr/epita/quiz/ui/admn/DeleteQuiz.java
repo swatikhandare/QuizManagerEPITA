@@ -27,7 +27,7 @@ public class DeleteQuiz extends JFrame {
 	
 	private static final long serialVersionUID = 6839934241297489798L;
 
-	protected static final String QUIZ_DEL_MSG = "Quiz  is Deleted successfully";
+	protected static final String QUIZ_DEL_MSG = "Quiz  is Deleted successfully!";
 
 	private static final String QUIZ_QUERY = "select ID, NAME from QUIZ";
 	

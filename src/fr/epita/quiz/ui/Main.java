@@ -15,7 +15,7 @@ import fr.epita.quiz.ui.candidate.Candidate;
 /**
  * 
  * @author Swati Khandare
- * @Main class for launching application
+  * Main class for launching application
  */
 public class Main extends JFrame {
 	private static final long serialVersionUID = -2728957700299762075L;
@@ -52,7 +52,7 @@ public class Main extends JFrame {
 
 	/**
 	 * Main Class Initialisation
-	 * @param args
+	 * @param args details
 	 */
 	public static void main(String[] args) {
 		new Main(); //Main Class initialises

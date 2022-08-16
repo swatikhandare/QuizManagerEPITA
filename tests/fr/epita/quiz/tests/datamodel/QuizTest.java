@@ -8,7 +8,6 @@ import fr.epita.quiz.datamodel.Quiz;
 /**
  * 
  * @author Swati Khandare
- * @QuizTest
  *
  */
 public class QuizTest {

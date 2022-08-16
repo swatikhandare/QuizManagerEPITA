@@ -3,7 +3,7 @@ package fr.epita.quiz.datamodel;
 /**
  * 
  * @author Swati Khandare
- * @POJO 
+ *
  */
 public class MultChoice {
 

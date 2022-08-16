@@ -13,7 +13,7 @@ public class TestQuizJDBCDAO {
 		ConfigurationService conf = ConfigurationService.getInstance();
 		boolean confInit = conf.isInit();
 		if (!confInit) {
-			System.out.println("problem while initializing the conf");
+			System.out.println("Problem while initializing the configuration");
 			return;
 		}
 		
@@ -25,7 +25,7 @@ public class TestQuizJDBCDAO {
 		//then
 		List<Quiz> list = dao.search(new Quiz("Java"));
 		if (list.isEmpty()) {
-			throw new NullPointerException("the list was empty");
+			throw new NullPointerException("The list was empty");
 		}
 		
 		System.out.println(list);

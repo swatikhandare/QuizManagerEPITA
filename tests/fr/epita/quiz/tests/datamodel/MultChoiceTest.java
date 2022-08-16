@@ -8,7 +8,6 @@ import fr.epita.quiz.datamodel.MultChoice;
 /**
  * 
  * @author Swati Khandare
- * @MultiChoiceTest
  */
 public class MultChoiceTest {
 	 

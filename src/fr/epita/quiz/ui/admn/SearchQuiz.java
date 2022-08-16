@@ -82,7 +82,7 @@ public class SearchQuiz extends JFrame {
 
 	/**
 	 * 
-	 * @param retList
+	 * @param retList details
 	 */
 	public void showTableData(List<Answer> retList) {
 

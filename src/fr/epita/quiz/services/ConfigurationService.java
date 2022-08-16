@@ -33,7 +33,7 @@ public class ConfigurationService {
 
 	/**
 	 * 
-	 * @return
+	 * @return details
 	 */
 	public static ConfigurationService getInstance() {
 		if (instance == null) {

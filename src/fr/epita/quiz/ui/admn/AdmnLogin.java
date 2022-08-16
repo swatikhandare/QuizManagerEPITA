@@ -29,13 +29,13 @@ public class AdmnLogin extends JFrame {
 	
 	private static final long serialVersionUID = 5540687645487609987L;
 
-	private static final String WELCOME = "Welcome to Admin Console";
+	private static final String WELCOME = "Welcome to Admin Console!";
 
 	private static final String SEARCH = "Search Quiz";
 	private static final String DELETE = "Delete Quiz";
 	private static final String EXPORT = "Export Quiz";
 
-	protected static final String EXPORT_SUC_MSG = "Question has been exported to PDF successfully";
+	protected static final String EXPORT_SUC_MSG = "Question has been exported to PDF successfully!";
 
 	private JPanel contentPane;
 	private static QuizJDBCDAO dao = QuizJDBCDAO.getInstance();
@@ -125,9 +125,9 @@ public class AdmnLogin extends JFrame {
 
 	/**
 	 * 
-	 * @param quesList
-	 * @return
-	 * @throws IOException
+	 * @param quesList details
+	 * @return return details
+	 * @throws IOException details
 	 */
 	public static boolean exportQues(List<Question> quesList) throws IOException {
 		final String FNAME = "Quiz.txt";

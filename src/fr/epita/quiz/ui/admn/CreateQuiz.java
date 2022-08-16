@@ -34,9 +34,9 @@ public class CreateQuiz extends JFrame {
 
 	private static final long serialVersionUID = -8988486909734440112L;
 	private static final String QUIZ_QUERY = "select ID, NAME from QUIZ";
-	protected static final String ADD_MSG = "Question is added successfully";
-	protected static final String UPDT_MSG = "Question is Updated successfully";
-	protected static final String DEL_MSG = "Question is Deleted successfully";
+	protected static final String ADD_MSG = "Question is added successfully!";
+	protected static final String UPDT_MSG = "Question is Updated successfully!";
+	protected static final String DEL_MSG = "Question is Deleted successfully!";
 	private JPanel pane;
 	private JTextField quesFld;
 	private JTextField topicFld;

@@ -53,7 +53,7 @@ public class QuizJDBCDAOTest {
 
 	@Test
 	public void retreiveAllQuesTest() {
-		List<Answer> ansList = dao.retreiveAllQues("Fruits");
+		List<Answer> ansList = dao.retreiveAllQues("Java");
 		assertEquals(false, ansList.isEmpty());
 
 	}

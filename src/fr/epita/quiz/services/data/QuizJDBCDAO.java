@@ -58,7 +58,7 @@ public class QuizJDBCDAO {
 
 	/**
 	 * Instance of the DAO Layer
-	 * @return
+	 * @return details
 	 */
 	public static QuizJDBCDAO getInstance() {
 		if (instance == null) {
@@ -70,8 +70,8 @@ public class QuizJDBCDAO {
 	/**
 	 * Method for getting Connection status
 	 * 
-	 * @return
-	 * @throws SQLException
+	 * @return details
+	 * @throws SQLException details
 	 */
 	private Connection getConnection() throws SQLException {
 
@@ -126,9 +126,9 @@ public class QuizJDBCDAO {
 
 	/**
 	 * Search the Quiz based on given criteria
-	 * @param quizCriterion
-	 * @return
-	 * @throws SearchFailedException
+	 * @param quizCriterion details
+	 * @return details
+	 * @throws SearchFailedException details
 	 */
 	public List<Quiz> search(Quiz quizCriterion) throws SearchFailedException {
 		String searchQuery = ConfigurationService.getInstance()
@@ -159,9 +159,9 @@ public class QuizJDBCDAO {
 
 	/**
 	 * This method creates Questions and Answers with Choice based on the input provided by Admin
-	 * @param ans
-	 * @return
-	 * @throws CreateFailedException
+	 * @param ans details
+	 * @return details
+	 * @throws CreateFailedException details
 	 */
 	public boolean createQues(Answer ans) throws CreateFailedException {
 		boolean isSucc = false;
@@ -188,10 +188,10 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This updates Questions and Answers based on the User input provided 
-	 * @param ans
-	 * @return
-	 * @throws CreateFailedException
+	 * category This updates Questions and Answers based on the User input provided
+	 * @param ans details
+	 * @return details
+	 * @throws CreateFailedException details
 	 */
 	public boolean updtQues(Answer ans) throws CreateFailedException {
 		boolean isSucc = false;
@@ -219,10 +219,10 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category this deletes the Questions based on the actions
-	 * @param qid
-	 * @return
-	 * @throws CreateFailedException
+	 * category this deletes the Questions based on the actions
+	 * @param qid details
+	 * @return details
+	 * @throws CreateFailedException details
 	 */
 	public boolean delQues(int qid) throws CreateFailedException {
 		boolean isSucc = false;
@@ -241,7 +241,7 @@ public class QuizJDBCDAO {
 
 	/**
 	 * 
-	 * @return
+	 * @return details
 	 */
 	public List<Quiz> retreiveTitle() {
 		List<Quiz> quizList = new ArrayList<>();
@@ -265,9 +265,9 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This DAO method retreives all the questions based on the inuts 
-	 * @param string
-	 * @return
+	 * category This DAO method retreives all the questions based on the inputs
+	 * @param string details
+	 * @return details
 	 */
 	public List<Answer> retreiveAllQues(String string) {
 		List<Answer> ansList = new ArrayList<>();
@@ -295,10 +295,10 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This method checks for the Login credentials of candidate who i going to take the quiz
-	 * @param uname
-	 * @param pwd
-	 * @return
+	 * category This method checks for the Login credentials of candidate who i going to take the quiz
+	 * @param uname details
+	 * @param pwd details
+	 * @return details
 	 */
 	public boolean candidateLogin(String uname, String pwd) {
 
@@ -317,11 +317,11 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This method used for registering the Candidates with their details 
-	 * @param name
-	 * @param uname
-	 * @param pwd
-	 * @return
+	 * category This method used for registering the Candidates with their details
+	 * @param name details
+	 * @param uname details
+	 * @param pwd details
+	 * @return details
 	 */
 	public boolean candidateRegister(String name, String uname, String pwd) {
 		boolean isCandAuth = false;
@@ -338,10 +338,10 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This exports the Entire Quiz with Questions and Answers into PDF format 
-	 * @return
-	 * @throws DocumentException
-	 * @throws FileNotFoundException
+	 * category This exports the Entire Quiz with Questions and Answers into PDF format
+	 * @return details
+	 * @throws DocumentException details
+	 * @throws FileNotFoundException details
 	 */
 	public boolean exportQuiz() throws FileNotFoundException, DocumentException {
 		boolean isExpSucc = false;
@@ -390,9 +390,9 @@ public class QuizJDBCDAO {
 	}
 
 	/**
-	 * @category This Method retrieves Questions
-	 * @param id
-	 * @return
+	 * category This Method retrieves Questions
+	 * @param id details
+	 * @return details
 	 */
 	public HashMap<String, String> retreiveQues(int id) {
 		HashMap<String, String> retMap = new HashMap<String, String>();
@@ -422,10 +422,10 @@ public class QuizJDBCDAO {
 
 	}
 	/**
-	 * @category This check the Admin credentials 
-	 * @param uname
-	 * @param pwd
-	 * @return
+	 * category This check the Admin credentials
+	 * @param uname details
+	 * @param pwd details
+	 * @return details
 	 */
 	public boolean admLogin(String uname, String pwd) {
 		try (Connection connection = getConnection();

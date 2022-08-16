@@ -1,0 +1,10 @@
+fr.epita.quiz.datamodel
+fr.epita.quiz.exception
+fr.epita.quiz.services
+fr.epita.quiz.services.data
+fr.epita.quiz.tests
+fr.epita.quiz.tests.datamodel
+fr.epita.quiz.tests.services.data
+fr.epita.quiz.ui
+fr.epita.quiz.ui.admn
+fr.epita.quiz.ui.candidate
