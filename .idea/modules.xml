@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QuizManager_EPITA.iml" filepath="$PROJECT_DIR$/QuizManager_EPITA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuizManagerEPITA.iml" filepath="$PROJECT_DIR$/QuizManagerEPITA.iml" />
     </modules>
   </component>
 </project>
